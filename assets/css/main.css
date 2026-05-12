@@ -124,13 +124,11 @@ nav.scrolled .nav-links a:hover { color:var(--orange); }
   margin-bottom:28px; border:1px solid rgba(255,255,255,.22);
   font-family:'Corbel', sans-serif;
 }
-.hero-logo-arabic {
-  font-family:'Noto Naskh Arabic', serif;
-  font-size:clamp(90px, 14vw, 160px);
-  font-weight:700; color:#fff;
-  line-height:.95; display:block; margin-bottom:10px;
-  text-shadow:0 8px 40px rgba(0,0,0,.3);
-  letter-spacing:-.01em;
+.hero-logo-img {
+  width:clamp(200px, 38vw, 380px);
+  display:block; margin-bottom:10px;
+  filter:drop-shadow(0 6px 32px rgba(0,0,0,0.28));
+  animation:fadeUp .9s ease both;
 }
 .hero-tagline {
   font-family:'Corbel', 'Segoe UI', sans-serif;
