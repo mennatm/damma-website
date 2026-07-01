@@ -2,7 +2,6 @@
 // Inject images
 window.addEventListener('DOMContentLoaded', () => {
   document.getElementById('heroBg').style.backgroundImage = 'url(assets/images/hero-bg.jpg)';
-  document.getElementById('missionImg').src = 'assets/images/mission.jpg';
   document.getElementById('dream1img').style.backgroundImage = 'url(assets/images/dream-1.jpg)';
   document.getElementById('dream2img').style.backgroundImage = 'url(assets/images/dream-2.jpg)';
   document.getElementById('dream3img').style.backgroundImage = 'url(assets/images/dream-3.jpg)';
