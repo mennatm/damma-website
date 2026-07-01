@@ -211,12 +211,12 @@ h2.sec-title em { font-style:italic; color:var(--orange); }
 }
 .mission-text p strong { color:var(--orange); font-weight:700; }
 /* Image side with squiggle decoration */
+.mission-visual { position:relative; }
 .mission-img-wrap {
-  position:relative; border-radius:20px; overflow:hidden;
+  position:relative; overflow:hidden;
 }
 .mission-img-wrap img {
   width:100%; height:480px; object-fit:cover; display:block;
-  border-radius:20px;
 }
 .mission-squiggle-overlay {
   position:absolute; bottom:-10px; right:-10px;
@@ -238,7 +238,7 @@ h2.sec-title em { font-style:italic; color:var(--orange); }
   color:#fff; line-height:1.6; font-style:italic; position:relative; z-index:1;
 }
 .trust-pill {
-  position:absolute; top:20px; right:-14px;
+  position:absolute; top:20px; right:0;
   background:var(--navy); color:#fff;
   border-radius:50%; width:90px; height:90px;
   display:flex; flex-direction:column; align-items:center; justify-content:center;
